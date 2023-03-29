@@ -1,0 +1,56 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/NALREBUR/dio-desafio-github-primeiro-repositorio/blob/main/Exerc%C3%ADcio%20de%20condicional%20em%20Python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def determinar_categoria_de_habilitacao(quantidade_de_rodas, peso_bruto_em_kg, quantidade_de_pessoas):\n",
+        "    if quantidade_de_rodas == 2 or quantidade_de_rodas == 3:\n",
+        "        print(\"Categoria A\")\n",
+        "    elif quantidade_de_rodas == 4 and peso_bruto_em_kg <= 3500 and quantidade_de_pessoas <= 8:\n",
+        "        print(\"Categoria B\")\n",
+        "    elif quantidade_de_rodas >= 4 and 3500 < peso_bruto_em_kg <= 6000:\n",
+        "        print(\"Categoria C\")\n",
+        "    elif quantidade_de_rodas >= 4 and quantidade_de_pessoas > 8:\n",
+        "        print(\"Categoria D\")\n",
+        "    elif quantidade_de_rodas >= 4 and peso_bruto_em_kg > 6000:\n",
+        "       print(\"Categoria E\")\n",
+        "    else:\n",
+        "        return \"Não foi possível determinar a categoria de habilitação\"\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "V-FQRZ_md3p3"
+      },
+      "execution_count": 31,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Damos-lhe as boas-vindas ao Colaboratory",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
